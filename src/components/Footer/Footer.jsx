@@ -28,18 +28,25 @@ export const Footer = () => {
         </ul>
       </nav>
       <div className="footer__right">
-        <p className="location-header">Location</p>
+        <p className="location-header">Main Office</p>
         <address>
-          1000 Assembly Street
-          <br />
-          Rembert Dennis Building, Suite 421
+          1000 Assembly St. Rembert Dennis Building, Suite 421
           <br />
           Columbia, SC 29201
+        </address>
+
+        <p className="location-header">Geodetic Survey Section</p>
+        <address>
+          5 Geology Rd
           <br />
-          (803) 734-3793
+          Columbia, SC 29212
+        </address>
+
+        <p className="location-header">Health and Demographic Division</p>
+        <address>
+          1000 Assembly St. Rembert Dennis Building, Suite 240
           <br />
-          <br />
-          publicrelations@rfa.sc.gov
+          Columbia, SC 29201
         </address>
       </div>
     </FooterContainer>

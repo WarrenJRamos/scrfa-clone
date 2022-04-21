@@ -49,5 +49,9 @@ export const FooterContainer = styled.footer`
       color: #93a4bd;
       text-transform: uppercase;
     }
+
+    address {
+      font-style: normal;
+    }
   }
 `;

@@ -72,6 +72,12 @@ export const NavigationContainer = styled.nav`
 
       &-item {
         list-style: none;
+
+        a {
+          text-decoration: none;
+          /* FIXME */
+          color: black;
+        }
       }
     }
 

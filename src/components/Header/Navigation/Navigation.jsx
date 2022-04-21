@@ -26,7 +26,7 @@ export const Navigation = (props) => {
           </span>
         </button>
         <div className="company">
-          <a className="company__logo">
+          <a className="company__logo" href="/">
             <img src={RFALogo} alt="scrfa logo" />
           </a>
           <div className="company__name">
@@ -42,10 +42,15 @@ export const Navigation = (props) => {
       </div>
       <div className="general-menu">
         <ul className="general-menu__list">
-          <li className="general-menu__list-item">Home</li>
-          <li className="general-menu__list-item">About Us</li>
-          <li className="general-menu__list-item">Events</li>
-          <li className="general-menu__list-item">Boards & Committees</li>
+          <li className="general-menu__list-item">
+            <a href="">About Us</a>
+          </li>
+          <li className="general-menu__list-item">
+            <a href="">Events</a>
+          </li>
+          <li className="general-menu__list-item">
+            <a href="">Boards & Committees</a>
+          </li>
         </ul>
         <div className="search">
           <button className="search__button">
