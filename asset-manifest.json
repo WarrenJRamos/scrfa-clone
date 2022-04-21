@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/scrfa-clone/static/js/main.86940fb7.js",
+    "static/media/shutterstock_42474535.jpg": "/scrfa-clone/static/media/shutterstock_42474535.ee7ba0c4809196d5aa30.jpg",
+    "static/media/RFALogoFinal.png": "/scrfa-clone/static/media/RFALogoFinal.9acbebdc43c6d30ad8b2.png",
+    "static/media/RFALogoFooter.png": "/scrfa-clone/static/media/RFALogoFooter.d36a2d473054af444498.png",
+    "static/media/Geography-Icon.svg": "/scrfa-clone/static/media/Geography-Icon.ea0756a839c35674339a1c40ad4fe67e.svg",
+    "static/media/Legislative-Icon.svg": "/scrfa-clone/static/media/Legislative-Icon.abd9561a56bf31746d4fa1183f6a4e08.svg",
+    "static/media/Data-Research-Icon.svg": "/scrfa-clone/static/media/Data-Research-Icon.adfbc6d6b9cb76dccb2a33f109865122.svg",
+    "static/media/Programs-Icon.svg": "/scrfa-clone/static/media/Programs-Icon.b9271770be8e97f54516bd23b3368cdf.svg",
+    "static/media/Phone.svg": "/scrfa-clone/static/media/Phone.3f3975a82330e1b032567e646a688c6a.svg",
+    "static/media/Location.svg": "/scrfa-clone/static/media/Location.01a7f101795f135791949b665d0d9f42.svg",
+    "index.html": "/scrfa-clone/index.html",
+    "static/media/searchIcon.svg": "/scrfa-clone/static/media/searchIcon.d5d1cb6f8dfe71e5251d3c273211a911.svg",
+    "static/media/menuIcon.svg": "/scrfa-clone/static/media/menuIcon.d66870a1cf4bfac21a68a00ca54ed53f.svg",
+    "static/media/Clock.svg": "/scrfa-clone/static/media/Clock.92086c746a3bb97d6b4537cea06cd8dd.svg",
+    "static/media/CaretUp.svg": "/scrfa-clone/static/media/CaretUp.04a8b7686e30d1a383cba8bb8fe954b3.svg",
+    "static/media/menuIconClose.svg": "/scrfa-clone/static/media/menuIconClose.280f4762faba7d0256b18910208d2c3b.svg",
+    "main.86940fb7.js.map": "/scrfa-clone/static/js/main.86940fb7.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.86940fb7.js"
+  ]
+}
