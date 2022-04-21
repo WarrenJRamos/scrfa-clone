@@ -13,4 +13,10 @@ export const GlobalStyles = createGlobalStyle`
     font-family: "Open Sans", sans-serif;
   }
 
+  .container {
+    max-width: 1200px;
+    padding: 0 1.5rem;
+    margin: auto;
+  }
+
 `;
