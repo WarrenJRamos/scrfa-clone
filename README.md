@@ -1,3 +1,55 @@
+# Mini Practice Project
+
+### This project is a clone of [South Carolina Revenue and Fiscal Affairs Office's home page](https://rfa.sc.gov/).
+
+### Time spent on project:
+
+- ~ 6 hours
+
+### Dependencies used (excluding create-react-app defaults):
+
+- styled-components
+
+### Thought Process:
+
+- Remove unecessary code/files created by running npx create-react-app
+- Retrieve/import all required images needed for project
+- Retrieve font families needed from Google Fonts and add the links to index.html
+- Create four main folders:
+  - assets/, components/, context/, styles/
+- Split the home page into a component hierarchy
+  - Add all required components into components/
+- Create styles/ which parallels the structure of components/
+  - Each React component should have a matching styled component
+  - Use a theme file which stores all colors/fonts needed for project
+    - **NOTE**: I ended up not using this; if I had more time, I would use this theme file for all styled components needed the colors/fonts
+  - Use a global style to reset browser defaults (e.g. margin: 0 on all elements)
+  - Use BEM format for organization
+- Create a mock data model for dynamic data needed on the home page (models a JSON API response)
+  - Determine which sections of the page require dynamic data
+    - Identified that the following sections: "Popular Services and Links", "Recent Updates", and "Calendar of Events" need dynamic data
+  - Create a mock object (that would be returned by an API call) and store it inside dummyData.js
+  - Use this mock object to populate the sections needing access to that data
+- Use React Context API to manage shared data/state as to prevent having to manually pass data down via props
+  - Context logic is found in context/
+  - The Home.jsx component provides this context to consuming components
+- Add in some media queries to make the website somewhat responsive
+
+### Features I would have liked to have completed if I had more time:
+
+- Routing
+  - I would have used React Router DOM v6 to add some routing logic
+- Responsiveness
+  - I would have spent more time on making the application more responsive
+- Theme file
+  - I would have incorporated the colors/fonts defined in Theme.js to all styled components needing access to it
+- Minor CSS fixes
+  - My clone doesn't exactly match the design; I would have cleaned up those sections
+
+---
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
