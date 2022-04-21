@@ -8,7 +8,8 @@
 
 ### Dependencies used (excluding create-react-app defaults):
 
-- styled-components
+- styled-components (used for styling)
+- gh-pages (used for deploying app to GitHub pages)
 
 ### Thought Process:
 
