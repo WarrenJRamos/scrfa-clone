@@ -21,4 +21,11 @@ export const HeroContainer = styled.div`
     font-size: 30px;
     font-weight: 400;
   }
+
+  @media (max-width: 855px) {
+    .hero__text {
+      max-width: 450px;
+      font-size: 1.4rem;
+    }
+  }
 `;

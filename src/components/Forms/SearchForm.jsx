@@ -1,5 +1,5 @@
 import React from "react";
-import { SearchFormContainer } from "../../styles/Search/SearchForm.styled";
+import { SearchFormContainer } from "../../styles/Forms/SearchForm.styled";
 
 export const SearchForm = (props) => {
   return (

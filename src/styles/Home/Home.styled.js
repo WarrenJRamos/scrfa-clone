@@ -31,4 +31,10 @@ export const HomeContainer = styled.div`
       }
     }
   }
+
+  @media (max-width: 800px) {
+    .home__section-bottom {
+      flex-direction: column;
+    }
+  }
 `;

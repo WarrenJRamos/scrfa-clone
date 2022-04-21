@@ -13,6 +13,10 @@ export const SearchFormContainer = styled.form`
     &__input {
       padding: 10px 5px;
       width: 500px;
+
+      @media (max-width: 855px) {
+        width: 300px;
+      }
     }
     &__submit {
       flex-basis: 100px;

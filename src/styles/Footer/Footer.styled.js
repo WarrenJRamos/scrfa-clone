@@ -54,4 +54,15 @@ export const FooterContainer = styled.footer`
       font-style: normal;
     }
   }
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 20px;
+
+    .company-logo {
+      margin: auto;
+    }
+  }
 `;

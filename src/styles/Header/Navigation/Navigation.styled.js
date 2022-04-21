@@ -98,4 +98,9 @@ export const NavigationContainer = styled.nav`
       }
     }
   }
+  @media (max-width: 880px) {
+    .general-menu {
+      display: none;
+    }
+  }
 `;

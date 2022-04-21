@@ -7,4 +7,10 @@ export const CardGroupContainer = styled.div`
     justify-content: space-around;
     padding: 1.5rem 0;
   }
+
+  @media (max-width: 855px) {
+    div {
+      flex-direction: column;
+    }
+  }
 `;
