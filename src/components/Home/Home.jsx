@@ -2,11 +2,13 @@ import React, { useState, useEffect } from "react";
 
 import { HomeContext } from "../../context/homeContext";
 import { dummyAPIResponse } from "../../dummyData";
-import { HomeContentContainer } from "../../styles/Home/Home.styled";
+import { HomeContainer } from "../../styles/Home/Home.styled";
 
 import { CardGroup } from "./Cards/CardGroup";
 import { Hero } from "./Hero/Hero";
 import { Popular } from "./Popular/Popular";
+import { RecentUpdates } from "./RecentUpdates/RecentUpdates";
+import { Calendar } from "./Calendar/Calendar";
 
 export const Home = () => {
   const [popularServicesAndLinks, setPopularServicesAndLinks] = useState([]);
@@ -24,22 +26,25 @@ export const Home = () => {
   }, []);
 
   return (
-    <HomeContext.Provider
-      value={{
-        popularServicesAndLinks,
-        setPopularServicesAndLinks,
-        recentUpdates,
-        setRecentUpdates,
-        calendarOfEvents,
-        setCalendarOfEvents,
-      }}
-    >
-      <div>
+    <HomeContainer>
+      <HomeContext.Provider
+        value={{
+          popularServicesAndLinks,
+          setPopularServicesAndLinks,
+          recentUpdates,
+          setRecentUpdates,
+          calendarOfEvents,
+          setCalendarOfEvents,
+        }}
+      >
         <Hero />
         <CardGroup />
         <Popular />
-        <div>...</div>
-      </div>
-    </HomeContext.Provider>
+        <section className="container home__section-bottom">
+          <RecentUpdates />
+          <Calendar />
+        </section>
+      </HomeContext.Provider>
+    </HomeContainer>
   );
 };
