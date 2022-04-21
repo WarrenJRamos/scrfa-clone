@@ -1,10 +1,7 @@
 import styled from "styled-components";
 
 export const PopularContainer = styled.div`
-  /* FIXME THE 3 LINES BELOW ARE REPEATED IN A COUPLE CONTAINERS */
-  /* max-width: 1200px;
-  padding: 0 1.5rem;
-  margin: auto; */
+  margin-top: 30px;
 
   .popular__header {
     text-transform: uppercase;
@@ -18,6 +15,7 @@ export const PopularContainer = styled.div`
   }
 
   .popular__list {
+    margin-top: 20px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

@@ -4,6 +4,9 @@ import heroImage from "../../../assets/shutterstock_42474535.jpg";
 export const HeroContainer = styled.div`
   height: 378px;
   background-image: url(${heroImage});
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
   display: flex;
   flex-direction: column;

@@ -23,7 +23,7 @@ export const Calendar = () => {
           );
         })}
       </ul>
-      <button>View All Events</button>
+      <button className="calendar__button">View All Events</button>
     </CalendarContainer>
   );
 };

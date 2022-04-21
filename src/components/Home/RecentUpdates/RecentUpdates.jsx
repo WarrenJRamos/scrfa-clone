@@ -9,8 +9,8 @@ export const RecentUpdates = () => {
 
   return (
     <RecentUpdatesContainer>
-      <h2>Recent Updates</h2>
-      <ul>
+      <h2 className="recent-updates__header">Recent Updates</h2>
+      <ul className="recent-updates__list">
         {recentUpdates.map((recentUpdate) => {
           return (
             <RecentUpdatesListItem
@@ -23,7 +23,7 @@ export const RecentUpdates = () => {
           );
         })}
       </ul>
-      <button>View More</button>
+      <button className="recent-updates__button">View More</button>
     </RecentUpdatesContainer>
   );
 };
