@@ -8,7 +8,10 @@ export const Header = () => {
 
   return (
     <HeaderContainer>
-      <Navigation setNavigationIsExtended={setNavigationIsExtended} />
+      <Navigation
+        navigationIsExtended={navigationIsExtended}
+        setNavigationIsExtended={setNavigationIsExtended}
+      />
       <NavigationExtended
         navigationIsExtended={navigationIsExtended}
         setNavigationIsExtended={setNavigationIsExtended}

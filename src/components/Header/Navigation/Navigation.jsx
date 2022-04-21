@@ -3,13 +3,27 @@ import { NavigationContainer } from "../../../styles/Header/Navigation/Navigatio
 
 import RFALogo from "../../../assets/RFALogoFinal.png";
 import searchIcon from "../../../assets/searchIcon.svg";
+import menuIconIsOpened from "../../../assets/menuIcon.svg";
+import menuIconIsClosed from "../../../assets/menuIconClose.svg";
 
-export const Navigation = () => {
+export const Navigation = (props) => {
+  const onMenuClick = () => {
+    props.setNavigationIsExtended((prev) => !prev);
+  };
+
   return (
     <NavigationContainer>
       <div className="nav-left">
-        <button className="menu">
-          <span className="menu__text">Menu</span>
+        <button className="menu" onClick={onMenuClick}>
+          <img
+            src={
+              props.navigationIsExtended ? menuIconIsClosed : menuIconIsOpened
+            }
+            alt="menu icon open"
+          />
+          <span className="menu__text">
+            {props.navigationIsExtended ? "Close" : "Menu"}
+          </span>
         </button>
         <div className="company">
           <a className="company__logo">

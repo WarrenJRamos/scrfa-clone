@@ -12,12 +12,26 @@ export const NavigationContainer = styled.nav`
     .menu {
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      padding: 0 10px;
+
+      border: none;
+      /* FIXME */
+      background-color: #3068ad;
+
+      &__text {
+        text-transform: uppercase;
+        color: white;
+      }
     }
 
     .company {
       display: flex;
       align-items: center;
       gap: 10px;
+      padding-left: 12px;
 
       &__logo {
         img {
@@ -30,11 +44,16 @@ export const NavigationContainer = styled.nav`
         display: flex;
         text-transform: uppercase;
         flex-direction: column;
+        /* FIXME */
+        font-family: "Roboto Slab", sans-serif;
+        font-weight: 500;
       }
 
       &__tagline {
         text-transform: none;
         font-style: italic;
+        /* FIXME */
+        font-family: "Roboto Condensed", sans-serif;
       }
     }
   }
@@ -57,10 +76,12 @@ export const NavigationContainer = styled.nav`
     }
 
     .search {
-      background-color: yellow;
-
       &__button {
-        padding: 7px;
+        padding: 9px;
+        /* FIXME */
+        border: 1px solid #3068ad;
+        border-radius: 3px;
+
         &-image {
           height: 24px;
           width: 24px;
