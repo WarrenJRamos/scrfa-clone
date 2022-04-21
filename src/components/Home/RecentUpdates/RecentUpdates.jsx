@@ -14,6 +14,7 @@ export const RecentUpdates = () => {
         {recentUpdates.map((recentUpdate) => {
           return (
             <RecentUpdatesListItem
+              key={recentUpdate.id}
               title={recentUpdate.title}
               href={recentUpdate.href}
               description={recentUpdate.description}

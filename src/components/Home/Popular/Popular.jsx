@@ -15,6 +15,7 @@ export const Popular = () => {
         {popularServicesAndLinks.map((popularListItem) => {
           return (
             <PopularListItem
+              key={popularListItem.id}
               title={popularListItem.title}
               href={popularListItem.href}
               className="popular__list-item"

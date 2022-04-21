@@ -14,6 +14,7 @@ export const Calendar = () => {
         {calendarOfEvents.map((calendarEvent) => {
           return (
             <CalendarListItem
+              key={calendarEvent.id}
               eventDate={calendarEvent.eventDate}
               eventTitle={calendarEvent.eventTitle}
               eventLocation={calendarEvent.eventLocation}
