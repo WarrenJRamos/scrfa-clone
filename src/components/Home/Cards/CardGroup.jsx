@@ -11,26 +11,28 @@ import { Card } from "./Card";
 export const CardGroup = () => {
   return (
     <CardGroupContainer>
-      <Card
-        src={dataResearchIcon}
-        alt="Data & Research Icon"
-        cardTitle="Data & Research"
-      />
-      <Card
-        src={geographyMappingIcon}
-        alt="Geography & Mapping Icon"
-        cardTitle="Geography & Mapping"
-      />
-      <Card
-        src={programServicesIcon}
-        alt="Programs & Services Icon"
-        cardTitle="Programs & Services"
-      />
-      <Card
-        src={legislativeFiscalIcon}
-        alt="Legislative Fiscal Impacts Icon"
-        cardTitle="Legislative Fiscal Impacts"
-      />
+      <div className="container">
+        <Card
+          src={dataResearchIcon}
+          alt="Data & Research Icon"
+          cardTitle="Data & Research"
+        />
+        <Card
+          src={geographyMappingIcon}
+          alt="Geography & Mapping Icon"
+          cardTitle="Geography & Mapping"
+        />
+        <Card
+          src={programServicesIcon}
+          alt="Programs & Services Icon"
+          cardTitle="Programs & Services"
+        />
+        <Card
+          src={legislativeFiscalIcon}
+          alt="Legislative Fiscal Impacts Icon"
+          cardTitle="Legislative Fiscal Impacts"
+        />
+      </div>
     </CardGroupContainer>
   );
 };

@@ -14,8 +14,8 @@ export const CardContainer = styled.a`
   align-items: center;
 
   .card-icon {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     img {
     }
   }

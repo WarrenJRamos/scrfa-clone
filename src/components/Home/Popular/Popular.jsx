@@ -9,7 +9,7 @@ export const Popular = () => {
   const popularServicesAndLinks = homeContext.popularServicesAndLinks;
 
   return (
-    <PopularContainer>
+    <PopularContainer className="container">
       <h2 className="popular__header">Popular Services and Links</h2>
       <ul className="popular__list">
         {popularServicesAndLinks.map((popularListItem) => {
@@ -17,6 +17,7 @@ export const Popular = () => {
             <PopularListItem
               title={popularListItem.title}
               href={popularListItem.href}
+              className="popular__list-item"
             />
           );
         })}

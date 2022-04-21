@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import { HomeContext } from "../../context/homeContext";
 import { dummyAPIResponse } from "../../dummyData";
+import { HomeContentContainer } from "../../styles/Home/Home.styled";
 
 import { CardGroup } from "./Cards/CardGroup";
 import { Hero } from "./Hero/Hero";
