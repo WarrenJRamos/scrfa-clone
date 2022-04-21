@@ -19,6 +19,7 @@ export const Calendar = () => {
               eventLocation={calendarEvent.eventLocation}
               eventTime={calendarEvent.eventTime}
               eventStatus={calendarEvent.eventStatus}
+              eventContact={calendarEvent.eventContact}
             />
           );
         })}

@@ -79,7 +79,7 @@ export const dummyAPIResponse = {
   ],
   calendarOfEvents: [
     {
-      eventDate: "Nov 22",
+      eventDate: "2022-11-22T18:37:45.296Z",
       eventTitle: "Board of Economic Advisors Meeting",
       eventLocation:
         "Room 417, Bowers Conference Room, Rembert Dennis Building",
@@ -88,7 +88,7 @@ export const dummyAPIResponse = {
       eventStatus: "Updated",
     },
     {
-      eventDate: "Nov 23",
+      eventDate: "2022-11-23T18:37:45.296Z",
       eventTitle: "Board of Economic Advisors Meeting",
       eventLocation:
         "Room 417, Bowers Conference Room, Rembert Dennis Building",
@@ -97,22 +97,22 @@ export const dummyAPIResponse = {
       eventStatus: "Cancelled",
     },
     {
-      eventDate: "Nov 25",
+      eventDate: "2022-11-25T18:37:45.296Z",
       eventTitle: "Board of Economic Advisors Meeting",
       eventLocation:
         "Room 417, Bowers Conference Room, Rembert Dennis Building",
       eventTime: "1:30pm",
       eventContact: "(803) 734-2265",
-      eventStatus: "Updated",
+      eventStatus: "",
     },
     {
-      eventDate: "Nov 28",
+      eventDate: "2022-11-27T00:00:00.000Z",
       eventTitle: "Board of Economic Advisors Meeting",
       eventLocation:
         "Room 417, Bowers Conference Room, Rembert Dennis Building",
       eventTime: "1:30pm",
       eventContact: "(803) 734-2265",
-      eventStatus: "Updated",
+      eventStatus: "",
     },
   ],
 };

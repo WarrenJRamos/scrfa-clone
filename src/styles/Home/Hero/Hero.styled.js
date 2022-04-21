@@ -12,6 +12,7 @@ export const HeroContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 40px;
 
   .hero__text {
     max-width: 740px;

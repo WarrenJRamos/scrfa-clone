@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 
+import caret from "../../assets/CaretUp.svg";
+
 import { HomeContext } from "../../context/homeContext";
 import { dummyAPIResponse } from "../../dummyData";
 import { HomeContainer } from "../../styles/Home/Home.styled";
@@ -44,6 +46,14 @@ export const Home = () => {
           <RecentUpdates />
           <Calendar />
         </section>
+        <div className="back-to-top container">
+          <a href="#">
+            Back to Top
+            <div>
+              <img src={caret} alt="caret" />
+            </div>
+          </a>
+        </div>
       </HomeContext.Provider>
     </HomeContainer>
   );

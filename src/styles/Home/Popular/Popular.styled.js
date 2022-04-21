@@ -5,12 +5,14 @@ export const PopularContainer = styled.div`
 
   .popular__header {
     text-transform: uppercase;
+    margin-bottom: 20px;
 
     &::after {
       content: "";
       display: block;
       height: 5px;
       background-color: #1b3a61;
+      margin-top: 15px;
     }
   }
 

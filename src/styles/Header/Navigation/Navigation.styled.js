@@ -82,11 +82,14 @@ export const NavigationContainer = styled.nav`
     }
 
     .search {
+      position: relative;
+
       &__button {
         padding: 9px;
         /* FIXME */
         border: 1px solid #3068ad;
         border-radius: 3px;
+        background-color: white;
 
         &-image {
           height: 24px;

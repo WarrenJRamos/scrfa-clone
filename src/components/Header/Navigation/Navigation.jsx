@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavigationContainer } from "../../../styles/Header/Navigation/Navigation.styled";
 
 import RFALogo from "../../../assets/RFALogoFinal.png";
 import searchIcon from "../../../assets/searchIcon.svg";
 import menuIconIsOpened from "../../../assets/menuIcon.svg";
 import menuIconIsClosed from "../../../assets/menuIconClose.svg";
+import { SearchForm } from "../../Forms/SearchForm";
 
 export const Navigation = (props) => {
+  const [searchIsClicked, setSearchIsClicked] = useState(false);
+
+  const onSearchClick = () => {
+    setSearchIsClicked((prev) => !prev);
+  };
+
   const onMenuClick = () => {
     props.setNavigationIsExtended((prev) => !prev);
   };
@@ -53,13 +60,18 @@ export const Navigation = (props) => {
           </li>
         </ul>
         <div className="search">
-          <button className="search__button">
+          <button
+            className="search__button"
+            type="button"
+            onClick={onSearchClick}
+          >
             <img
               className="search__button-image"
               src={searchIcon}
               alt="search-icon"
             />
           </button>
+          {searchIsClicked ? <SearchForm searchIsClicked={true} /> : null}
         </div>
       </div>
     </NavigationContainer>
