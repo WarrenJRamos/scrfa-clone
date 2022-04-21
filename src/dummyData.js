@@ -2,45 +2,45 @@ export const dummyAPIResponse = {
   popularServicesAndLinks: [
     {
       title: "Overview and History of the South Carolina State Budget",
-      src: "",
+      href: "",
     },
     {
       title: "Employer Contribution Trends",
-      src: "",
+      href: "",
     },
     {
       title: "Appropriation Bills and Acts",
-      src: "",
+      href: "",
     },
     {
       title: "Overview and History of the South Carolina State Budget",
-      src: "",
+      href: "",
     },
     {
       title: "Employer Contribution Trends - June 4, 2019",
-      src: "",
+      href: "",
     },
     {
       title: "Executive Budget Office State Agency Budget Plans(Requests)",
-      src: "",
+      href: "",
     },
     {
       title: "Overview and History of the South Carolina State Budget",
-      src: "",
+      href: "",
     },
     {
       title: "Employer Contribution Trends - June 4, 2019",
-      src: "",
+      href: "",
     },
     {
       title: "Executive Budget Office State Agency Budget Plan(Requests)",
-      src: "",
+      href: "",
     },
   ],
   recentUpdates: [
     {
       title: "Local Government Finance",
-      src: "",
+      href: "",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a leo pulvinar, dignissim ex ac, eleifend est. ",
       datePublished: "Jan 2, 2020",
@@ -48,7 +48,7 @@ export const dummyAPIResponse = {
     },
     {
       title: "Transportation Netwrok Carrier Maps",
-      src: "",
+      href: "",
       description: "",
       datePublished: "Jan 2, 2020",
       status: "New",
@@ -56,7 +56,7 @@ export const dummyAPIResponse = {
     {
       title:
         "BEA Long-Range General Fund Revenue Plan for FY 2019-20 to FY 2022-23",
-      src: "",
+      href: "",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a leo pulvinar, dignissim ex ac, eleifend est. ",
       datePublished: "Dec 16, 2019",
@@ -64,14 +64,14 @@ export const dummyAPIResponse = {
     },
     {
       title: "Budget Development",
-      src: "",
+      href: "",
       description: "",
       datePublished: "Dec 16, 2019",
       status: "New",
     },
     {
       title: "November 2019 General Fund Revenue Digest",
-      src: "",
+      href: "",
       description: "",
       datePublished: "Dec 13, 2019",
       status: "New",

@@ -1,3 +1,5 @@
+import React, { useState } from "react";
+
 import theme from "./styles/Theme";
 
 import { Header } from "./components/Header/Header";
